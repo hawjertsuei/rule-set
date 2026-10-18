@@ -1,0 +1,24 @@
+{
+  "version": 5,
+  "rules": [
+    {
+      "domain_regex": [
+        "^download[\\w.-]*?\\.mediafire\\.com$",
+        "^ftp\\.[\\w.-][\\w.-]\\.debian\\.org$",
+        "^ftp\\.[\\w.-][\\w.-]\\.freebsd\\.org$",
+        "^s3\\.[\\w.-]*?\\.backblazeb2\\.com$",
+        "^[\\w.-]*?\\.s3\\.[\\w.-]*?\\.backblazeb2\\.com$",
+        "^cdn-[\\w.-]*?\\.comaps\\.app$",
+        "^cdn-[\\w.-]*?\\.comaps\\.tech$",
+        "^cdn-[\\w.-]*?\\.organicmaps\\.app$",
+        "^dl-[\\w.-]*?\\.mypikpak\\.com$"
+      ]
+    },
+    {
+      "process_name": "NeatDownloadManager"
+    },
+    {
+      "package_name": "NeatDownloadManager"
+    }
+  ]
+}

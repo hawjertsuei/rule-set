@@ -1,0 +1,23 @@
+{
+  "version": 5,
+  "rules": [
+    {
+      "domain": [
+        "javdb.com",
+        "mhgui.com",
+        "avbebe.com",
+        "yymanhua.com",
+        "av.jkforum.net",
+        "www.yymanhua.com",
+        "www.manhuagui.com"
+      ],
+      "domain_suffix": "cdn.hinet.net",
+      "domain_regex": [
+        "^[\\w.-]*?\\.ffzy-online[\\w.-]\\.com$",
+        "^[\\w.-]*?\\.ffzy-play[\\w.-]\\.com$",
+        "^[\\w.-]*?\\.lz-cdn[\\w.-]\\.com$",
+        "^[\\w.-]*?\\.lz-cdn[\\w.-][\\w.-]\\.com$"
+      ]
+    }
+  ]
+}
